@@ -1,0 +1,26 @@
+# .gitignore for Tomos
+
+# build files
+build/
+build-release/
+cmake-build-*/
+CMakeUserPresets.json
+
+# In-source CMake (binary dir == source dir)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.spv
+*.o
+*.obj
+*.a
+
+imgui.ini
+
+# editor files
+.idea/
+.vscode/
+
+third_party/
